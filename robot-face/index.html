@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mikasa AI Companion</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <!-- Mikasa Profile Card -->
+    <div class="profile-card">
+      <img src="https://dlaudio.fineshare.net/cover/song-ai/covers/mikasa-ackerman.webp" alt="Mikasa" class="profile-img">
+      <div class="glow"></div>
+    </div>
+
+    <!-- Chat Container -->
+    <div class="chat-box">
+      <div class="chat-messages" id="messages"></div>
+      
+      <div class="input-container">
+        <input type="text" id="messageInput" placeholder="Ask Mikasa...">
+        <button onclick="sendMessage()" class="send-btn">
+          <span>Send</span>
+          <div class="arrow"></div>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
